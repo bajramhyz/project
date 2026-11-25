@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulier</title>
+</head>
+<body>
+     <header> 
+        <h1>Contact</h1>
+     </header>
+        <nav>
+        <div class="logo"> 
+            <img src="img/logo.jpg" alt="mijn portofolio logo">
+        </div>
+        <div class="pagina">
+    <a href="index.html">Home</a>
+            <a href="projecten.html">Projecten</a>
+            <a href="vaardigheden.html">Vaardigheid</a>
+            <a href="overmij.html">Over mij</a>
+            <a href="formulier.html">Formulier</a>
+        </div>
+    </nav>
+<main class="pagina-main">
+    <section class="inhoud-blok">
+        <h2>Stuur mij een bericht</h2>
+        <p>
+            Heb je een vraag of wil je meer informatie?
+            Vul dan het onderstaande formulier in.
+        </p>
+        <form action="">
+            <label for="naam">Naam:</label>
+            <input type="text" id="naam" name="naam" required>
+
+            <label for="email">E-mailadres:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="onderwerp">Onderwerp:</label>
+            <input type="text" id="onderwerp" name="onderwerp" required>
+
+            <label for="berichten">Berichten</label>
+            <textarea name="berichten" id="berichten" required></textarea>
+
+            <button type="submit">Versturen</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>© 2026 Mijn Portfolio</p>
+    <p>software development</p>
+    <a href="formulier.html">neem contact op</a>
+</footer>
+</body>
+</html>
